@@ -19,7 +19,7 @@ shinyUI(
                 p("You must make another choice, than the last time :(("),
                 radioButtons(inputId = 'userChoice1', label = "", choices = arms,selected = character(0)),
                 submitButton('Fire away!'),
-                h5(a("Dokumentation", href="https://ddakhno.shinyapps.io/RockPaperScissors/readme.html"))
+                h5(a("Dokumentation", href="http://rpubs.com/ddakhno/202567"))
 
         ),
         mainPanel(
